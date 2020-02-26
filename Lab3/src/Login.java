@@ -15,7 +15,7 @@ public class Login extends HttpServlet
         var password = req.getParameter("password");
         if( username == null || password == null)
         {
-            pw.printf("No username provided");
+            pw.printf("Incorrect username/password\n");
         } 
         else 
         {

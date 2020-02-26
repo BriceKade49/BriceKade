@@ -25,6 +25,7 @@ public class SignUp extends HttpServlet
         var password = req.getParameter("password");
         if( username == null || password == null)
         {
+            
             pw.printf("No username or password provided");
         } 
         else 
